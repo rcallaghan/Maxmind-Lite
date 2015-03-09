@@ -11,7 +11,8 @@ git clone https://github.com/rcallaghan/Maxmind-Lite.git
 ```
 ####Install  Dependencies:
 
-```js npm install
+```js
+npm install
 ```
 
 #### Run web service:
