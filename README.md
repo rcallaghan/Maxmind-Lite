@@ -51,6 +51,20 @@ http://localhost:8080?token=0FPNEy65JPMxTlW&ip=110.33.122.75&format=json
 }
 ```
 
+### Accepted paramaters
+
+####Token
+
+A token is required for any valid response to be returned. 
+
+####IP
+
+The IP is returned using the Xforwarded For headers this can be manually overwritten by passing through the users IP using &ip=usersip
+
+####Format
+
+The default response is text, adding &format=json will return a JSON response.
+
 ### What about POST requests?
 
 If a POST request is made to the service it will return a 405 (Bad Request) error with the following response
