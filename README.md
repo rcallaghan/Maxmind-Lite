@@ -73,6 +73,12 @@ If a POST request is made to the service it will return a 405 (Bad Request) erro
 POST Requests are not accepted on this service.
 ```
 
+### Useful links
+
+#####Express Documentation: http://expressjs.com/api
+#####Maxmind npm module: https://www.npmjs.com/package/maxmind
+##### Maxmind Documentation: https://github.com/runk/node-maxmind 
+
 ###FAQs
 
 #####Q: Is the database file included the FULL maxmind 
