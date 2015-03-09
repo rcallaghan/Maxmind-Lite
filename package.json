@@ -1,0 +1,17 @@
+{
+  "name": "Maxmind-Lite",
+  "version": "0.0.1",
+  "description": "A simple geo location tool built in Node.js",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~4.10.0",
+    "maxmind": "~0.5.1"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "geolocation"
+  ],
+  "author": "Ryan Callaghan"
+ }
